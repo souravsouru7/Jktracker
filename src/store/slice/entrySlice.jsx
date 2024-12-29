@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://www.modernbakery.shop/',
+  baseURL: 'https://www.modernbakery.shop',
 });
 
 const validateEntry = (entry) => {
